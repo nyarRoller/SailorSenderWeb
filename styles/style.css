@@ -1,3 +1,25 @@
-.hd{
-    color: red;
+body{
+    background-color: #E8E8E8;
 }
+
+
+#logo{
+    margin-right: 15%;
+}
+
+.email,.login,.reg{
+    display: inline-block;
+}
+.acc{
+    text-align: right;
+}
+
+#upperMenu{
+    z-index: 1;
+    box-shadow: -10px 14px 10px lightgrey;
+}
+.mainNav{
+    /* background-color: white;	 */
+    box-shadow: -10px 14px 8px lightgrey;
+    z-index: 2;
+    }
