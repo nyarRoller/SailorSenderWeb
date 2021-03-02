@@ -6,4 +6,7 @@ def main(request):
     return render(request, 'main/index.html')
 
 def about(request):
-    return HttpResponse("<h4>About<h4>")
+    return render(request, 'main/about.html')
+
+def email(request):
+    return render(request, 'main/send.html')

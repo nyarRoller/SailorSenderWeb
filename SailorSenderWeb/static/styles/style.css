@@ -2,6 +2,13 @@ body{
     background-color: #E8E8E8;
 }
 
+a{
+    text-decoration: none;
+    color:black
+  }
+a:hover{
+    color:grey;
+}
 
 #logo{
     margin-right: 15%;
@@ -13,7 +20,9 @@ body{
 .acc{
     text-align: right;
 }
-
+.login{
+    margin-left: 10%;
+}
 #upperMenu{
     z-index: 1;
     box-shadow: -10px 14px 10px lightgrey;
@@ -28,3 +37,4 @@ body{
     min-height: 83vh;
     background-color: white;
 }
+
