@@ -10,3 +10,6 @@ def about(request):
 
 def email(request):
     return render(request, 'main/send.html')
+
+def send(request):
+    pass

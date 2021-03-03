@@ -125,3 +125,16 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
 ]
+
+
+#Email setting
+
+EMAIL_HOST = "smtp.ukr.net"
+EMAIL_HOST_USER = "lordjusitcar@ukr.net"
+EMAIL_HOST_PASSWORD = "ybrbnf11"
+EMAIL_PORT = "465"
+EMAIL_USE_TLS = False
+EMAIL_USE_SSL = True
+
+FROM_EMAIL = ""
+EMAIL_ADMIN = ""

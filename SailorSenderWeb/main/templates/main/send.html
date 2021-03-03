@@ -11,8 +11,16 @@
     <div class="row">
         <div class="col-2"></div>
         <div class="col-8"> 
-            <div class="d-flex justify-content-cente"><button type="submit" class="btn btn-primary " id = "start" width = 100px>Send</button></div>
+            <label class= "lb"for="theme">Тема листа</label>
+            <input type="text" class="form-control textEmail" id="theme" name="theme">
+            <label for="text" class="lb">Текст листа</label>
+            <textarea class = "form-control textAreaEmail" id = "text"width = 100px></textarea>
+            <label class = "lb"for="appFile">Резюме моряка</label><p></p>
+            <input type="file" class="form-control-file" id="appFile">
+            <div class="d-flex justify-content-cente"><button type="submit" class="btn btn-dark " id = "start" width = 100px>Send</button></div>
+            
         </div>
         <div class="col-2"></div>
+
     </div>
 {% endblock %}

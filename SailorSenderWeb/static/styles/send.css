@@ -5,3 +5,15 @@
     margin-right: auto;
     text-align: center;
 }
+.textAreaEmail{
+    resize: none;
+    margin-top: 1%;
+    height: 50vh;
+}
+
+.textEmail{
+    margin-top: 1%;
+}
+.lb{
+    margin-top: 3%;
+}
